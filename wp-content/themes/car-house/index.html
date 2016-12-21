@@ -1,0 +1,924 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Car House - Car Listing Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oleo+Script:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- top header start -->
+<header class="top-header hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="clearfix">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="tel:+55-417-634-7071"><i class="fa fa-phone pr-5 pl-10"></i>  +55 417-634-7071</a>
+                        </li>
+                        <li>
+                            <a href="mailto:sales@carhouse.com">
+                                <i class="fa fa-envelope-o pr-5 pl-10"></i>sales@carhouse.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="clearfix">
+                    <div class="top-buttons">
+                        <a href="signup.html" class="btn btn-grey btn-sm text-uppercase"><i class="fa fa-user pr-10"></i> Sign Up</a>
+                        <a href="login.html" class="btn btn-grey btn-sm text-uppercase"><i class="fa fa-lock pr-10"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- top header end -->
+<!-- main header start-->
+<div class="main-header">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand-logo" href="index.html">
+                    <img src="img/logo.png" alt="CAR HOUSE">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="car_list.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Car Listing<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="car_list.html">Car List</a></li>
+                            <li><a href="car_grid.html">Car Grid</a></li>
+                            <li><a href="car_details.html">Car Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="login.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">Pages<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="forgot_reset.html">Password Reset</a></li>
+                            <li><a href="404.html">404</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            <!-- /.container -->
+        </nav>
+    </div>
+</div>
+<!--main-header end-->
+
+<!-- banner start-->
+<div class="banner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active item-1">
+                <div class="container">
+                    <div class="banner-slider-inner-1">
+                        <h1>Sports Car</h1>
+                        <h2>Best Car 2016</h2>
+                        <!--<h4>Attract, Engage, & Convert<br>Qualified Vehiche Shoppers</h4>-->
+                    </div>
+                </div>
+            </div>
+            <div class="item item-2">
+                <div class="container">
+                    <div class="banner-slider-inner-1">
+                        <h1><span>Luxurious</span><br>Best Cars2016</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item item-3">
+                <div class="container">
+                    <div class="banner-slider-inner-1">
+                        <h1><span>Family Car</span><br>Best Car 2016</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="slider-mover-left" aria-hidden="true">
+             <img src="img/left-chevron.png" alt="left-chevron">
+          </span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="slider-mover-right" aria-hidden="true">
+                <img src="img/right-chevron.png" alt="right-chevron">
+            </span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!-- banner End-->
+
+<!-- recent-car start-->
+<div class="recent-car content-area">
+    <div class="container">
+        <div class="recent-car-content">
+            <div class="row margin-b-15">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <i class="fa fa-car"></i>
+                        <h2>Recent cars</h2>
+                        <div class="border"></div>
+                        <h4>Check our recent motors</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <a href="#" class="sale">
+                            <span>sale</span>
+                        </a>
+                        <img src="img/Audi-q7-2017.jpg" alt="Audi-q7-2017">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">Audi q7 2017</a>
+                                    <span>$42,605
+                                    </span>
+                                </h3>
+                            </div>
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2016</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>10.888m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <a href="#" class="sale">
+                            <span>sale</span>
+                        </a>
+                        <img src="img/LAMBORGHINI-2016.jpg" alt="Lamborghini 2016">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">lamborghini 2016</a>
+                                    <span>$399,500</span>
+                                </h3>
+                            </div>
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2016</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>11.888m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <img src="img/JAGUAR-F-TYPE-R.jpg" alt="Jaguar f-type R">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">Jaguar F-Type R</a>
+                                    <span>$105,400</span>
+                                </h3>
+                            </div>
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2015</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>10.888m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <a href="#" class="sale">
+                            <span>sale</span>
+                        </a>
+                        <img src="img/Porsche-Cayen-Last-Serie.jpg" alt="Porsche-Cayen-Last">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">Porsche-Cayen-Last</a>
+                                    <span>$36,000</span>
+                                </h3>
+                            </div>
+
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2015</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>10.888m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 clearfix ">
+                    <div class="thumbnail car-box">
+                        <img src="img/Mercedes-Benz-C-Class.jpg" alt="Vencer-Sarthe-Supercar">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">Mercedes Benz C Class</a>
+                                    <span>$42,650</span>
+                                </h3>
+                            </div>
+
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2012</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>14.18m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <a href="#" class="sale">
+                            <span>sale</span>
+                        </a>
+                        <img src="img/Vencer-Sarthe-Supercar.jpg" alt="Vencer-Sarthe-Supercar">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">Vencer Sarthe Supercar</a>
+                                    <span>$54,000</span>
+                                </h3>
+                            </div>
+
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2010</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>20.000m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <img src="img/BMW-E46-M3-DISKI-SERIE.jpg" alt="BMW-E46-M3-DISKI-SERIE">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">BMW e46 M3 Diski Serie</a>
+                                    <span>$49.000</span>
+                                </h3>
+                            </div>
+
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2016</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>12.888m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <a href="#" class="sale">
+                            <span>sale</span>
+                        </a>
+                        <img src="img/McLaren-650S.jpg" alt="McLaren-650S">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">McLaren-650S</a>
+                                    <span>$28,490</span>
+                                </h3>
+                            </div>
+
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2016</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>13.28m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 clearfix">
+                    <div class="thumbnail car-box">
+                        <img src="img/Range-Rover-2016.jpg" alt="Range-Rover-2016">
+                        <div class="caption car-content">
+                            <div class="header b-items-cars-one-info-header s-lineDownLeft">
+                                <h3>
+                                    <a href="car_details.html">Range-Rover-2016</a>
+                                    <span>$84,950</span>
+                                </h3>
+                            </div>
+
+                            <p>Next level Pinterest farm-to-table selvage gentrify street art raw denim Helvetica street art pork belly.</p>
+                            <div class="car-tags">
+                                <ul>
+                                    <li>2014</li>
+                                    <li>Bensin</li>
+                                    <li>Sport</li>
+                                    <li>10.78m</li>
+                                </ul>
+                            </div>
+                            <div class="ster-fa">
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star orange-color"></i>
+                                <i class="fa fa-star-o orange-color"></i>
+                            </div>
+                            <div class="details-button">
+                                <a href="car_details.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- recent-car end-->
+
+<!-- testimonials end-->
+<div class="testimonials">
+    <div class="col-lg-12">
+        <div id="carouse2-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouse2-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carouse2-example-generic" data-slide-to="1"></li>
+                <li data-target="#carouse2-example-generic" data-slide-to="2"></li>
+                <li data-target="#carouse2-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="container">
+                        <div class="col-md-8 col-md-offset-2 testimonials-inner">
+                            <ul class="star-rating orange-color">
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <div class="line-dec"></div>
+                            <p>
+                                <em>"</em>
+                                Lorem ipsum dolor sit amet, nemore facete quo cu, sumo tincidunt pri ex, usu ubique
+                                percipitur ea. Ut fugit quaestio Lorem ipsum dolor sit amet, nemore facete quo cu, sumo
+                                tincidunt pri ex, usu ubique percipitur ea. Ut fugit quaestio
+                                <em>"</em>
+                            </p>
+                            <div class="author-rate">
+                                <img src="img/04-testimonial.jpg" alt="04-testimonial">
+                                <h4>Maria Morris</h4>
+                                <div class="line-dec2"></div>
+                                <span>Car Dealer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="col-md-12 col-md-8 col-md-offset-2 testimonials-inner">
+                            <ul class="star-rating">
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star active"></i>
+                                </li>
+                            </ul>
+                            <div class="line-dec"></div>
+                            <p>
+                                <em>"</em>
+                                Lorem ipsum dolor sit amet, nemore facete quo cu, sumo tincidunt pri ex, usu ubique
+                                percipitur ea. Ut fugit quaestio Lorem ipsum dolor sit amet, nemore facete quo cu, sumo
+                                tincidunt pri ex, usu ubique percipitur ea. Ut fugit quaestio
+                                <em>"</em>
+                            </p>
+                            <div class="author-rate">
+                                <img src="img/02-testimonial.jpg" alt="02-testimonial">
+                                <h4>Maria Morris</h4>
+                                <div class="line-dec2"></div>
+                                <span>Car Dealer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="col-md-12 col-md-8 col-md-offset-2 testimonials-inner">
+                            <ul class="star-rating">
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star active"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star active"></i>
+                                </li>
+                            </ul>
+                            <div class="line-dec"></div>
+                            <p>
+                                <em>"</em>
+                                Lorem ipsum dolor sit amet, nemore facete quo cu, sumo tincidunt pri ex, usu ubique
+                                percipitur ea. Ut fugit quaestio Lorem ipsum dolor sit amet, nemore facete quo cu, sumo
+                                tincidunt pri ex, usu ubique percipitur ea. Ut fugit quaestio
+                                <em>"</em>
+                            </p>
+                            <div class="author-rate">
+                                <img src="img/03-testimonial.jpg" alt="03-testimonial">
+                                <h4>Maria Morris</h4>
+                                <div class="line-dec2"></div>
+                                <span>Car Dealer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="col-md-12 col-md-8 col-md-offset-2 testimonials-inner">
+                            <ul class="star-rating">
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star active"></i>
+                                </li>
+                            </ul>
+                            <div class="line-dec"></div>
+                            <p>
+                                <em>"</em>
+                                Lorem ipsum dolor sit amet, nemore facete quo cu, sumo tincidunt pri ex, usu ubique
+                                percipitur ea. Ut fugit quaestio Lorem ipsum dolor sit amet, nemore facete quo cu, sumo
+                                tincidunt pri ex, usu ubique percipitur ea. Ut fugit quaestio
+                                <em>"</em>
+                            </p>
+                            <div class="author-rate">
+                                <img src="img/01-testimonial.jpg" alt="01-testimonial">
+                                <h4>Maria Morris</h4>
+                                <div class="line-dec2"></div>
+                                <span>Car Dealer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carouse2-example-generic" role="button" data-slide="prev">
+              <span class="slider-mover-left" aria-hidden="true">
+                 <img src="img/left-chevron.png" alt="left-chevron">
+              </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouse2-example-generic" role="button" data-slide="next">
+                <span class="slider-mover-right" aria-hidden="true">
+                    <img src="img/right-chevron.png" alt="right-chevron">
+                </span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!-- testimonials end-->
+
+<!-- footer start-->
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 footer-item ">
+                <div class="footer-item-content">
+                    <img src="img/logo.png" alt="logo-1">
+                    <p>Maecenas ne mollis orci. Phasell iacu sapie non aliquet ex euismo ac.</p>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-map-marker"></i>
+                                Raver Croft Drive Knoxville, 37921
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+55-417-634-7071"><i class="fa fa-phone pr-5 pl-10"></i>  +55 417-634-7071</a>
+                        </li>
+                        <li>
+                            <a href="mailto:sales@carhouse.com">
+                                <i class="fa fa-envelope-o pr-5 pl-10"></i> sales@carhouse.com
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-social-list">
+                        <li>
+                            <a href="#" class="facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="linkedin">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="google">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="rss">
+                                <i class="fa fa-rss"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="vimeo">
+                                <i class="fa fa-vimeo"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6 footer-item">
+                <div class="footer-item-content">
+                    <h2>What we offer ?</h2>
+                    <div class="line-dec"></div>
+                    <ul>
+                        <li>
+                            <a href="#">Rent a car now</a>
+                        </li>
+                        <li>
+                            <a href="#">Search for sale</a>
+                        </li>
+                        <li>
+                            <a href="#">Best daily dealers</a>
+                        </li>
+                        <li>
+                            <a href="#">Weekly lucky person</a>
+                        </li>
+                        <li>
+                            <a href="#">Change car color</a>
+                        </li>
+                        <li>
+                            <a href="#">Rent a car now</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Best daily dealers</a>
+                        </li>
+                        <li>
+                            <a href="#">Change car color</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6 footer-item ">
+                <div class="footer-item-content">
+                    <h2>tags</h2>
+                    <div class="line-dec"></div>
+                    <a href="#" class="tags">Apps</a>
+                    <a href="#" class="tags">gallery</a>
+                    <a href="#" class="tags">photography</a>
+                    <a href="#" class="tags">Web</a>
+                    <a href="#" class="tags">blog right sidebar</a>
+                    <a href="#" class="tags">books</a>
+                    <a href="#" class="tags">business</a>
+                    <a href="#" class="tags">design</a>
+                    <a href="#" class="tags">education</a>
+                    <a href="#" class="tags">Fitness</a>
+                    <a href="#" class="tags">pen</a>
+                    <a href="#" class="tags">real</a>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 footer-item ">
+                <div class="footer-item-content">
+                    <h2>Recent motors</h2>
+                    <div class="line-dec"></div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="img/pic-footer-2.jpg" alt="pic-footer-2">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="car_details.html">Jaguar f-type r</a>
+                            <div class="line-dec-o"></div>
+                            <span>$105,400</span>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="img/pic-footer-3.jpg" alt="pic-footer-3">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="car_details.html">Mercedes Benz C Class</a>
+                            <div class="line-dec-o"></div>
+                            <span>$42.000</span>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="car_details.html">
+                                <img class="media-object" src="img/pic-footer-1.jpg" alt="pic-footer-1">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="car_details.html">BMW e46 m3 diski serie</a>
+                            <div class="line-dec-o"></div>
+                            <span>$49.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6 footer-item ">
+                <div class="footer-item-content">
+                    <h2>Gallery</h2>
+                    <div class="line-dec"></div>
+                    <div class="gallery-item">
+                        <img src="img/01-gallery.jpg" alt="01-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/02-gallery.jpg" alt="02-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/03-gallery.jpg" alt="03-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/04-gallery.jpg" alt="04-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/05-gallery.jpg" alt="05-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/06-gallery.jpg" alt="06-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/07-gallery.jpg" alt="07-gallery">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/08-gallery.jpg" alt="08-gallery">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end-->
+
+<!-- sub-footer start-->
+<div class="sub-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <p>Copyright 2016. All rights reserved by:<span> the carhouse</span></p>
+            </div>
+            <div class="col-md-6 col-sm-6 hidden-xs ">
+                <ul>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                     <li>
+                        <a href="car_list.html">Car Listing</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- sub-footer end-->
+
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-slider.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script src="js/app.js"></script>
+
+
+</body>
+</html>
